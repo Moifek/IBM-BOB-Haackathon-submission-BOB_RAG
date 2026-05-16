@@ -1,0 +1,38 @@
+Metformin: Clinical Overview
+
+Metformin is a first-line medication for the treatment of type 2 diabetes mellitus. It belongs to the biguanide class of antidiabetic drugs and works primarily by decreasing hepatic glucose production and improving insulin sensitivity in peripheral tissues.
+
+Mechanism of Action:
+Metformin activates AMP-activated protein kinase (AMPK), which leads to decreased gluconeogenesis in the liver. It also enhances glucose uptake in skeletal muscle and reduces intestinal glucose absorption.
+
+Clinical Indications:
+- Type 2 diabetes mellitus (first-line therapy)
+- Polycystic ovary syndrome (PCOS)
+- Prediabetes prevention
+- Gestational diabetes (off-label)
+
+Dosing:
+Initial dose: 500 mg twice daily or 850 mg once daily with meals
+Maintenance dose: 1000-2000 mg daily in divided doses
+Maximum dose: 2550 mg daily
+
+Common Side Effects:
+- Gastrointestinal disturbances (diarrhea, nausea, abdominal discomfort)
+- Metallic taste
+- Vitamin B12 deficiency (with long-term use)
+
+Contraindications:
+- Severe renal impairment (eGFR <30 mL/min/1.73m²)
+- Acute or chronic metabolic acidosis
+- Severe hepatic impairment
+- Acute heart failure
+- Recent myocardial infarction
+
+Drug Interactions:
+Metformin may interact with contrast media, alcohol, and certain medications that affect renal function. Caution is advised when combining with other antidiabetic agents due to increased hypoglycemia risk.
+
+Monitoring:
+- Renal function (eGFR) at baseline and periodically
+- Vitamin B12 levels annually
+- HbA1c every 3-6 months
+- Liver function tests if clinically indicated

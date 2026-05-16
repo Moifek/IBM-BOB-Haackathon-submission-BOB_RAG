@@ -1,0 +1,63 @@
+Antibiotic Therapy: Principles and Common Agents
+
+Antibiotics are medications used to treat bacterial infections. Appropriate antibiotic selection requires consideration of the suspected pathogen, site of infection, patient factors, and local resistance patterns.
+
+Principles of Antibiotic Use:
+1. Confirm or strongly suspect bacterial infection
+2. Obtain cultures before initiating therapy when possible
+3. Use narrow-spectrum agents when pathogen is known
+4. Consider local antibiogram and resistance patterns
+5. Ensure adequate dosing and duration
+6. Monitor for adverse effects and therapeutic response
+
+Common Antibiotic Classes:
+
+Beta-Lactams:
+- Penicillins (amoxicillin, ampicillin)
+- Cephalosporins (cephalexin, ceftriaxone)
+- Carbapenems (meropenem, imipenem)
+- Mechanism: Inhibit bacterial cell wall synthesis
+
+Fluoroquinolones:
+- Ciprofloxacin, levofloxacin, moxifloxacin
+- Mechanism: Inhibit DNA gyrase and topoisomerase IV
+- Black box warnings: Tendon rupture, peripheral neuropathy, aortic dissection
+
+Macrolides:
+- Azithromycin, clarithromycin, erythromycin
+- Mechanism: Inhibit bacterial protein synthesis (50S ribosomal subunit)
+- Common uses: Respiratory tract infections, atypical pneumonia
+
+Tetracyclines:
+- Doxycycline, minocycline
+- Mechanism: Inhibit bacterial protein synthesis (30S ribosomal subunit)
+- Contraindicated in pregnancy and children <8 years
+
+Aminoglycosides:
+- Gentamicin, tobramycin, amikacin
+- Mechanism: Inhibit protein synthesis
+- Toxicities: Nephrotoxicity, ototoxicity (requires monitoring)
+
+Common Infections and Empiric Therapy:
+
+Community-Acquired Pneumonia:
+- Outpatient: Amoxicillin or doxycycline
+- Inpatient: Ceftriaxone + azithromycin
+
+Urinary Tract Infection:
+- Uncomplicated: Nitrofurantoin or trimethoprim-sulfamethoxazole
+- Complicated: Fluoroquinolone or ceftriaxone
+
+Skin and Soft Tissue Infection:
+- Mild: Cephalexin or dicloxacillin
+- MRSA suspected: Doxycycline or trimethoprim-sulfamethoxazole
+
+Antibiotic Resistance:
+Major concern worldwide. Key resistant organisms include:
+- Methicillin-resistant Staphylococcus aureus (MRSA)
+- Extended-spectrum beta-lactamase (ESBL) producing Enterobacteriaceae
+- Carbapenem-resistant Enterobacteriaceae (CRE)
+- Vancomycin-resistant Enterococcus (VRE)
+
+Antibiotic Stewardship:
+Programs designed to optimize antibiotic use, improve patient outcomes, reduce resistance, and decrease healthcare costs. Key strategies include prospective audit and feedback, formulary restrictions, and education.

@@ -76,21 +76,40 @@ bobrag-md/
 
 ## Quickstart
 
+### Prerequisites
+
+- Docker & Docker Compose
+- Python 3.11+
+- Node.js 18+ (for dashboard)
+- uv (Python package manager): `pip install uv`
+
 ### System (Layer 1 — minimal working RAG)
 
 ```bash
+# Clone and setup
 git clone https://github.com/<you>/bobrag-md.git
 cd bobrag-md
 
+# Install Python dependencies
 uv sync
+
+# Start Qdrant vector database
 docker compose up -d
 
-cp .env.example .env       # fill in GEMINI_API_KEY, LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY
+# Configure environment
+cp .env.example .env
+# Edit .env and fill in:
+#   GEMINI_API_KEY=your_key_here
+#   LANGFUSE_PUBLIC_KEY=your_key_here (optional)
+#   LANGFUSE_SECRET_KEY=your_key_here (optional)
 
-uv run bobrag ingest                                  # ~30s
-uv run bobrag query "What is metformin used for?"     # cited answer
-uv run bobrag eval                                    # Ragas
-uv run bobrag serve                                   # rag_mcp
+# Ingest sample medical documents
+uv run python -m bobrag ingest
+
+# Query the RAG system
+uv run python -m bobrag query "What is metformin used for?"
+
+# Note: eval and serve commands are placeholders for demo
 ```
 
 ### Dashboard (Bobalytics)
@@ -112,9 +131,18 @@ npm run dev
 ### Codebase MCP (Bob-built, exposing DocRAG-MD)
 
 ```bash
-python -m src.codebase_mcp.server
-# Then connect from Claude Desktop:
-# Config: { "docrag-codebase": { "command": "python", "args": ["-m", "src.codebase_mcp.server"] } }
+# Run the MCP server
+uv run python -m src.codebase_mcp.server
+
+# Then connect from Claude Desktop by adding to your MCP config:
+# {
+#   "mcpServers": {
+#     "docrag-codebase": {
+#       "command": "uv",
+#       "args": ["run", "python", "-m", "src.codebase_mcp.server"]
+#     }
+#   }
+# }
 ```
 
 ## Stack

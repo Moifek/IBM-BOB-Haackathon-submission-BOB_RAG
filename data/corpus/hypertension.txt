@@ -1,0 +1,46 @@
+Hypertension: Clinical Management Guidelines
+
+Hypertension, or high blood pressure, is defined as systolic blood pressure ≥140 mmHg or diastolic blood pressure ≥90 mmHg. It is a major risk factor for cardiovascular disease, stroke, and chronic kidney disease.
+
+Classification:
+- Normal: <120/80 mmHg
+- Elevated: 120-129/<80 mmHg
+- Stage 1 Hypertension: 130-139/80-89 mmHg
+- Stage 2 Hypertension: ≥140/90 mmHg
+- Hypertensive Crisis: >180/120 mmHg
+
+First-Line Antihypertensive Agents:
+1. ACE Inhibitors (e.g., lisinopril, enalapril)
+2. Angiotensin Receptor Blockers (ARBs) (e.g., losartan, valsartan)
+3. Calcium Channel Blockers (e.g., amlodipine, diltiazem)
+4. Thiazide Diuretics (e.g., hydrochlorothiazide, chlorthalidone)
+
+Treatment Goals:
+- General population: <130/80 mmHg
+- Elderly (≥65 years): <130/80 mmHg (if tolerated)
+- Diabetes or CKD: <130/80 mmHg
+
+Lifestyle Modifications:
+- DASH diet (Dietary Approaches to Stop Hypertension)
+- Sodium restriction (<2.3 g/day, ideally <1.5 g/day)
+- Regular physical activity (150 min/week moderate intensity)
+- Weight loss if overweight (target BMI 18.5-24.9)
+- Limit alcohol consumption
+- Smoking cessation
+
+Monitoring:
+- Home blood pressure monitoring recommended
+- Office BP measurements at each visit
+- Annual assessment of cardiovascular risk factors
+- Renal function and electrolytes when starting or adjusting medications
+
+Resistant Hypertension:
+Defined as BP above goal despite adherence to ≥3 antihypertensive medications of different classes, including a diuretic. Consider secondary causes and refer to specialist.
+
+Secondary Causes to Consider:
+- Primary aldosteronism
+- Renal artery stenosis
+- Obstructive sleep apnea
+- Pheochromocytoma
+- Cushing's syndrome
+- Thyroid disorders
