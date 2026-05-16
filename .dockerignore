@@ -1,0 +1,79 @@
+# Data directory (mounted as volume instead)
+data/
+!data/.gitkeep
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Environment files (use .env.example as template)
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test files and coverage
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Bob agent files
+.bob/
+
+# Analysis and planning
+analysis_target/
+planning/
+app_docs/
+
+# Scripts (not needed in container)
+scripts/
+download_data.sh
+start.sh
+
+# Docker files (not needed in image)
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+
+# Made with Bob
