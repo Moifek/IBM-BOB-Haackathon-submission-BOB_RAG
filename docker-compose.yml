@@ -10,6 +10,8 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    networks:
+      - bobrag-network
 
   bobrag:
     build: .
@@ -22,10 +24,13 @@ services:
       - QDRANT_COLLECTION=bobrag_medical
     volumes:
       - ./data:/app/data
-      - ./src:/app/src
-    command: python -m bobrag --help
-    profiles:
-      - manual  # Don't auto-start, user runs commands manually
+    networks:
+      - bobrag-network
+    # No default command - use docker compose run bobrag <command>
 
 volumes:
   qdrant_storage:
+
+networks:
+  bobrag-network:
+    driver: bridge

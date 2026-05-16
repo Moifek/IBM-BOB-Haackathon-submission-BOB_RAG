@@ -79,22 +79,17 @@ bobrag-md/
 ### Prerequisites
 
 - Docker & Docker Compose
-- Python 3.11+
-- Node.js 18+ (for dashboard)
-- uv (Python package manager): `pip install uv`
+- Node.js 18+ (for dashboard only)
+- API keys: Gemini (required), Langfuse (optional)
 
 ### System (Layer 1 — minimal working RAG)
+
+**Everything runs in Docker containers. No local Python installation needed.**
 
 ```bash
 # Clone and setup
 git clone https://github.com/<you>/bobrag-md.git
 cd bobrag-md
-
-# Install Python dependencies
-uv sync
-
-# Start Qdrant vector database
-docker compose up -d
 
 # Configure environment
 cp .env.example .env
@@ -103,13 +98,19 @@ cp .env.example .env
 #   LANGFUSE_PUBLIC_KEY=your_key_here (optional)
 #   LANGFUSE_SECRET_KEY=your_key_here (optional)
 
+# Start Qdrant vector database
+docker compose up -d qdrant
+
+# Build bobrag container
+docker compose build bobrag
+
 # Ingest sample medical documents
-uv run python -m bobrag ingest
+docker compose run --rm bobrag python -m bobrag ingest
 
 # Query the RAG system
-uv run python -m bobrag query "What is metformin used for?"
+docker compose run --rm bobrag python -m bobrag query "What is metformin used for?"
 
-# Note: eval and serve commands are placeholders for demo
+# All commands run in isolated containers with GPU support
 ```
 
 ### Dashboard (Bobalytics)
