@@ -1,0 +1,56 @@
+# Environment variables
+.env
+
+# Data directory
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node modules (for frontend)
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# uv lock file (optional, can be committed)
+# uv.lock
+
+# Made with Bob
