@@ -155,8 +155,7 @@ The Bob-authored refactor in this submission lives in this repo's feature branch
 
 ## Author
 **Moafak** - Principal AI Software Engineer   
-**Ahmed** — AI Engineer, Advanced Master's in AI (Expert Data & MLOps), Télécom Paris.
-Solo hackathon build, May 2026.
+**Ahmed** — AI Engineer, Advanced Master's in AI (Expert Data & MLOps)
 
 
 ## License
@@ -166,5 +165,4 @@ MIT for everything I authored. `analysis-target/` retains its original DocRAG-MD
 ## Acknowledgments
 
 - **IBM Bob team** — for the agent that made this showcase possible
-- **My DocRAG-MD teammates** — Tahiana, Oussama, Mohamed Khalil, Mohamed Amar — whose joint work is the analysis subject
 - **lablab.ai** — for hosting the hackathon
