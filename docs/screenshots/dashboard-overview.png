@@ -1,0 +1,11 @@
+# Placeholder for Bobalytics Dashboard Screenshot
+
+This file should be replaced with an actual PNG screenshot of the Bobalytics dashboard showing:
+- Bob Session Timeline (bar chart)
+- Bobcoin Budget Gauge (radial gauge)
+- RAG Query Traces (line chart)
+- Ragas Evaluation Radar (radar chart)
+- DocRAG-MD Dependency Graph (network graph)
+
+Recommended size: 1920x1080 or 2560x1440
+Format: PNG with transparency if needed
