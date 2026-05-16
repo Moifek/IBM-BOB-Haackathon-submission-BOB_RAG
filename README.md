@@ -154,7 +154,7 @@ Average Bobcoins per substantive deliverable: ~3.3. Total: ~22 / 40 (45% under b
 The Bob-authored refactor in this submission lives in this repo's feature branch only.
 
 ## Author
-**Moafak** - Principal AI Software Engineer
+**Moafak** - Principal AI Software Engineer   
 **Ahmed** — AI Engineer, Advanced Master's in AI (Expert Data & MLOps), Télécom Paris.
 Solo hackathon build, May 2026.
 
