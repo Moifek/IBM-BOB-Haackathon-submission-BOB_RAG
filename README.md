@@ -2,7 +2,7 @@
 
 > **Master's thesis-grade medical RAG, analyzed by IBM Bob as the codebase intelligence layer — in 22 Bobcoins.**
 
-Built solo in 36 hours for the IBM Bob Hackathon (May 15–17, 2026), under a hard 40-Bobcoin budget.
+Built for the IBM Bob Hackathon (May 15–17, 2026), under a hard 40-Bobcoin budget.
 
 [**▶ Demo video**](#) · [**Pitch deck**](docs/PITCH_DECK.pdf) · [**Bob usage report**](BOB_USAGE_REPORT.md) · [**Architecture (Bob-generated)**](docs/ARCHITECTURE.md)
 
