@@ -151,23 +151,13 @@ Average Bobcoins per substantive deliverable: ~3.3. Total: ~22 / 40 (45% under b
 - **Demoable** — every Bob output is screen-ready
 - **Aligned with Bob's actual strength** — codebase intelligence on real complexity
 
-## About the analysis subject (DocRAG-MD)
-
-DocRAG-MD was built by:
-- **Ahmed** (me)
-- **Tahiana Andriambahoaka**
-- **Oussama Rhouma**
-- **Mohamed Khalil Ounis**
-- **Mohamed Amar**
-
-at Télécom Paris (Institut Polytechnique de Paris) as a Master's group project. It is vendored here read-only with attribution preserved (`analysis-target/NOTICE.md`). No changes flow back to the original DocRAG-MD repository.
-
 The Bob-authored refactor in this submission lives in this repo's feature branch only.
 
 ## Author
-
+**Moafak** - Principal AI Software Engineer
 **Ahmed** — AI Engineer, Advanced Master's in AI (Expert Data & MLOps), Télécom Paris.
 Solo hackathon build, May 2026.
+
 
 ## License
 
