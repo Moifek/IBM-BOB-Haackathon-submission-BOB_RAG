@@ -366,8 +366,8 @@ This project is licensed under the MIT License - see the [LICENSE](../LICENSE) f
 
 ## 👥 Authors
 
-- **Original Architecture**: DocRAG-MD Team
-- **Open-Source MVP**: Rebuilt for community use
+- **Principal AI Software Engineer**: [Moafak](mailto:Mouafak.Maiza@proton.me) (AI Harness / Agentic framework)
+- **AI Engineer, Advanced Master's in AI (Expert Data & MLOps)**: [Ahmed](mailto:ahmed.fakhfakh.dae@gmail.com) (Product)
 
 ---
 
