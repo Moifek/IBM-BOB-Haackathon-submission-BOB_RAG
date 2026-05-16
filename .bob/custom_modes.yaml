@@ -38,5 +38,28 @@ customModes:
         - attempt_completion
     editableFilePatterns: []
     customInstructions: You verify implementations against specifications. You do NOT modify code or run commands.
+  - slug: orchestrator
+    name: 🔀 Orchestrator
+    description: Coordinates complex multi-step workflows by delegating to specialized modes
+    roleDefinition: You are a workflow orchestrator. You coordinate work across specialized modes but never write code directly.
+    instructions: file://.bob/rules-orchestrator/01-team-lead.md
+    groups:
+      - orchestration
+    tools:
+      allowed:
+        - read_file
+        - list_files
+        - search_files
+        - list_code_definition_names
+        - new_task
+        - update_todo_list
+        - generate_description_from_diff
+        - obtain_git_diff
+        - fetch_github_issue
+        - ask_followup_question
+        - attempt_completion
+    editableFilePatterns: []
+    customInstructions: You coordinate work across specialized modes. You do NOT write code directly - delegate to Code mode for implementation.
+
 
 # Made with Bob
