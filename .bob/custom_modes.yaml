@@ -1,0 +1,42 @@
+customModes:
+  - slug: documenter
+    name: 📝 Documenter
+    description: Generates markdown documentation for completed features. Read-only except for creating docs in app_docs/.
+    roleDefinition: You are a documentation specialist. You generate concise markdown documentation for validated features. You do NOT modify implementation code or run commands.
+    instructions: file://.bob/modes/documenter-prompt.md
+    groups:
+      - documentation
+    tools:
+      allowed:
+        - read_file
+        - list_files
+        - search_files
+        - list_code_definition_names
+        - write_to_file
+        - insert_content
+        - ask_followup_question
+        - insert_content 
+        - attempt_completion
+    editableFilePatterns:
+      - .^app_docs/.*\.md$
+    customInstructions: You generate concise markdown documentation for validated features. You do NOT modify implementation code or run commands.
+
+  - slug: validator
+    name: ✅ Validator
+    description: Read-only verification mode for validating implementations against specifications
+    roleDefinition: You are a validation specialist. You verify implementations against specifications without modifying code.
+    instructions: file://.bob/rules-validator/01-validator.md
+    groups:
+      - validation
+    tools:
+      allowed:
+        - read_file
+        - list_files
+        - search_files
+        - list_code_definition_names
+        - ask_followup_question
+        - attempt_completion
+    editableFilePatterns: []
+    customInstructions: You verify implementations against specifications. You do NOT modify code or run commands.
+
+# Made with Bob
